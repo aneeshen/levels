@@ -14,7 +14,7 @@ def get_exp_l_c_s_value(b,t,msbs,ref_lcs):#*2
             lcs=ref_lcs+(b-msbs)*3
     return lcs
 
-def get_normal_lcs_value(b,ref_lcs):
+def get_normal_lcs_value(b,msbs,ref_lcs):
     if b<=msbs:
         lcs=ref_lcs
     else:
